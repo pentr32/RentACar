@@ -1,0 +1,13 @@
+﻿@model NewRentCar.Models.ReservationModel
+
+<div class="row justify-content-center align-items-center w-100 h-100">
+    <div class="bg-primary panel-body"><h2>Reservation with ID: @Model.ReservationID was added to list</h2></div><br />
+
+    <table class="table table-bordered table-striped">
+        <tr><th>ID:</th><td>@Model.ReservationID</td></tr>
+        <tr><th>Reserved from:</th><td>@Model.ReservedFrom</td></tr>
+        <tr><th>Reserved to:</th><td>@Model.ReservedTo</td></tr>
+        <tr><th>Reserved car ID:</th><td>@Model.ReservedCarID</td></tr>
+        <tr><th>Customers ID:</th><td>@Model.CustomerID</td></tr>
+    </table>
+</div>

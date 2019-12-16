@@ -1,0 +1,6 @@
+C:\Users\robe1819\source\repos\NewRentCar\FirmaClassLibrary\bin\Debug\FirmaClassLibrary.dll
+C:\Users\robe1819\source\repos\NewRentCar\FirmaClassLibrary\bin\Debug\FirmaClassLibrary.pdb
+C:\Users\robe1819\source\repos\NewRentCar\FirmaClassLibrary\obj\Debug\FirmaClassLibrary.csprojAssemblyReference.cache
+C:\Users\robe1819\source\repos\NewRentCar\FirmaClassLibrary\obj\Debug\FirmaClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\robe1819\source\repos\NewRentCar\FirmaClassLibrary\obj\Debug\FirmaClassLibrary.dll
+C:\Users\robe1819\source\repos\NewRentCar\FirmaClassLibrary\obj\Debug\FirmaClassLibrary.pdb

@@ -1,0 +1,31 @@
+﻿@model NewRentCar.Models.ReservationModel
+@{
+    ViewBag.Title = "Create a new reservation";
+}
+
+<div class="container">
+
+    <div class="row justify-content-center align-items-center w-100 h-100">
+        <form asp-action="CreateNewReservation" method="get">
+            <div class="form-group">
+                <label asp-for="SelectedCustomerID">CustomerID: </label>
+                <select class="form-control" asp-for="SelectedCustomerID" asp-items="Model.AllCustomers">
+                    <option disabled selected value="">Vælge ID</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SelectedCarID">CarID: </label>
+                <select class="form-control" asp-for="SelectedCarID" asp-items="Model.AllCars">
+                    <option disabled selected value="">Vælge ID</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReservedFrom"></label>
+                <input asp-for="ReservedFrom" class="form-control" />
+                <label asp-for="ReservedTo"></label>
+                <input asp-for="ReservedTo" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Create reservation</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@model NewRentCar.Models.CustomerModel
+@{
+    ViewBag.Title = "Add a new customer";
+}
+
+<div class="container">
+
+    <div class="row justify-content-center align-items-center">
+        <form asp-action="AddNewCustomer" method="get">
+            <div class="form-group">
+                <label asp-for="CustomerName"></label>
+                <input asp-for="CustomerName" class="form-control" />
+                <label asp-for="CustomerSaldo"></label>
+                <input asp-for="CustomerSaldo" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Add customer</button>
+        </form>
+    </div>
+</div>
